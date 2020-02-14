@@ -13,14 +13,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <Folder Include="Data\" />
     <Folder Include="Pages\Settings" />
-    <Folder Include="Shared" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="iRacingSdkWrapper">
       <HintPath>..\lib\iRacingSdkWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="iRacingSimulator">
+      <HintPath>..\lib\iRacingSimulator.dll</HintPath>
     </Reference>
   </ItemGroup>
 

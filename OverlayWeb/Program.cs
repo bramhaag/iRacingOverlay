@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Text;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Blazor.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using OverlayWeb.Data;
+using OverlayWeb.Services;
 
 namespace OverlayWeb
 {
@@ -15,7 +12,7 @@ namespace OverlayWeb
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("app");
             builder.Services.AddSingleton<SdkService>();
-
+            
             await builder.Build().RunAsync();
         }
     }

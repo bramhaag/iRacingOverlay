@@ -1,4 +1,20 @@
 ﻿@page "/overlay/relative"
-@layout OverlayLayout
+@using iRacingSimulator
+@inherits OverlayLayout
 
 <h1>Relative</h1>
+<table style="width: 100%">
+    <tr>
+        <th>Car#</th>
+        <th>Driver</th>
+        <th>Gap</th>
+    </tr>
+    @foreach (var driver in Drivers)
+    {
+        <tr>
+            <td>@Sim.Instance.Telemetry.CarIdxPosition.Value</td>
+            <td>@driver.Name</td>
+            <td>0.0</td>
+        </tr>
+    }
+</table>
