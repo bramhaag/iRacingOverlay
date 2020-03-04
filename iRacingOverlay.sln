@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlayWeb", "OverlayWeb\OverlayWeb.csproj", "{87257BAF-F9C0-4E68-BC20-1912B20957C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverlayWeb", "OverlayWeb\OverlayWeb.csproj", "{87257BAF-F9C0-4E68-BC20-1912B20957C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlayDesktop", "OverlayDesktop\OverlayDesktop.csproj", "{2E448949-DAA0-441A-9B1D-9140CA0083CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverlayDesktop", "OverlayDesktop\OverlayDesktop.csproj", "{2E448949-DAA0-441A-9B1D-9140CA0083CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
